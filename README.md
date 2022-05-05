@@ -14,7 +14,7 @@ Alma shop testing
 from bash console, clone the repository
 
 ```bash
-git clone
+git clone https://github.com/rafikcyp/AL_Ma.git
 ```
 
 from bash console, install the dependencies
@@ -62,5 +62,5 @@ for the given amount and optionally the specified origin, the country of the bil
 3- The tool I used : I used cypress in order to harmonize the test tools.
 using the the same tool for front end and back end automation, is benefic,  especially since cypress is a powerful tool for both
 4- What i would have done differently if i had more time: Deepen the test scenarios,
-including passing scenarios and non-passing scenarios
+including passing scenarios and non-passing scenarios checking moire values in the body instead of checking just the reponse code status.
 
