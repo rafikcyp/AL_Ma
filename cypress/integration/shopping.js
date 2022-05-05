@@ -1,8 +1,7 @@
 describe("suite de test de panier", ()=>{
     
     before(() =>{
-        cy.fixture("ids/data").then((data)=>{
-        });
+        
         cy.visit('/')
     })
 
